@@ -14,7 +14,7 @@ FTP-Brute is a tool used to do Dictionary Attack
 - Easy to use
 - You can crack the Username, the Password, and even both of it !
 - Fast...(depends on Your Internet Connection Speed)
-  this Tools can test 3 word in a second
+  this Tools can test 3,4 or even 6 word in a second
 - If Target's FTP Server not in Port 21...You can change it
 - Multiplatform between Linux and Windows
 +++ Deficiency / Bad News...:
