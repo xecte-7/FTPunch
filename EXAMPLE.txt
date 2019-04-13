@@ -1,0 +1,46 @@
+#) Preparing
+First, make sure You have installed the required module...
+~) Windows:
+    C:\Folders\FTPunch\> pip install -r requirements.txt
+         or
+    C:\Folders\FTPunch\> pip2 install -r requirements.txt
+~) Linux:
+    $ pip install -r requirements.txt
+         or
+    $ pip2 install -r requirements.txt
+
+#) How to Use ??? :
+How to use this Tool? check this Tutorial below
+1) Show help:
+   $ python FTPunch.py --help
+2) Crack Password with Wordlist and known Username (example username is 'madafaka'):
+   $ python FTPunch.py --target=192.168.1.12 --mode=passwd --username=madafaka
+     or, if You want to use different Wordlist
+   $ python FTPunch.py --target=192.168.1.12 --mode=passwd --username=madafaka --passlist="/folder/wordtext.txt"
+3) Crack Username with Wordlist and known Password (example password is 'shitman'):
+   $ python FTPunch.py --target=192.168.1.12 --mode=usernm --password=shitman
+     or, if You want to use different Wordlist
+   $ python FTPunch.py --target=192.168.1.12 --mode=usernm --password=shitman --userlist="/folder/usertext.txt"
+4) Set the Timeout (example here, we want to crack a Password and using the Default Wordlist)
+   $ python FTPunch.py --target=192.168.1.12 --mode=passwd --username=madafaka --timeout=0.3
+5) Set the Port Number of FTP Services (if not Port 21)
+   $ python FTPunch.py --target=192.168.1.12 --mode=passwd --username=madafaka --port=69
+
+#) Default configuration:
+target: <none> (Need to set)
+port: 21 (Default Port for FTP Services)
+timeout: 0.5
+userlist: ./wordlist/mxact666_username.txt (Username wordlist)
+passlist: ./wordlist/mxact666_password.txt (Password wordlist)
+username: <none> (Need to set)
+password: <none> (Need to set)
+
+Note: If You want to crack Username: then set the known Password, and set Userlist to use for crack the Username
+      If You want to crack Password: then set the known Username, and set Passlist to use for crack the Password
+      Dont set both of Username and Password or Userlist and Passlist
+      If You want to crack Username and Password...then wait for the Next Version of this Tool
+
+#) Available Mode:
+Crack the Username then use: usernm
+Crack the Password then use: passwd
+Crack the Username and Password is not available yet...coming soon!

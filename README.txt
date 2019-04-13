@@ -1,5 +1,5 @@
 ###############################################################
-### version 1.0:
+### HELLO:
 +++ Description:
 FTP-Brute is a tool used to do Dictionary Attack
 (Bruteforce Attack) on an FTP server (Default: Port 21)
@@ -10,11 +10,13 @@ FTP-Brute is a tool used to do Dictionary Attack
 - Crack Password
 - You can do some File Management with Target's System
   (Upload or Download)
+###############################################################
+### version 1.0
 +++ Feature:
 - Easy to use
 - You can crack the Username, the Password, and even both of it !
 - Fast...(depends on Your Internet Connection Speed)
-  this Tools can test 3,4 or even 6 word in a second
+  this Tools can test 3 word in a second
 - If Target's FTP Server not in Port 21...You can change it
 - Multiplatform between Linux and Windows
 +++ Deficiency / Bad News...:
@@ -31,3 +33,18 @@ FTP-Brute is a tool used to do Dictionary Attack
 - ParrotSec v4
 - Kali Linux (rolling) 2018.3
 ###############################################################
+### version 1.1:
++++ Feature:
+- Bug fixed
+- Change Banner
+###############################################################
+### version 1.2:
++++ Feature:
+- Bug fixed
+- Change banner (one banner only)
+- Moving from OptParse into ArgParse
+- Easy to Use
+- You can use different FTP Port number now! Not only Port 21
+  (21 is Default Port Number of FTP Services)
+- You can set the Authentication Timeout
+- Default Wordlist is now extended...(Password: 1500+, Username: 80)
